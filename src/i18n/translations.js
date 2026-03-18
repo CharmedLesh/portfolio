@@ -185,11 +185,11 @@ export const translations = {
       text2After:
         " та сучасними фронтенд\u2011інструментами.",
       yearsNumber: '3+',
-      yearsLabel: 'Років досвіду',
+      yearsLabel: 'Років Досвіду',
       sectorsNumber: '5',
       sectorsLabel: 'Корпоративних Проєктів',
       projectsNumber: '7',
-      projectsLabel: 'Реалізованих проєктів',
+      projectsLabel: 'Реалізованих Проєктів',
     },
     experience: {
       sectionNumber: '02.',
