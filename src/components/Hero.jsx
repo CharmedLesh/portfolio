@@ -26,7 +26,7 @@ export default function Hero() {
           <div className="hero__actions">
             <a href="#contact" className="btn btn--primary">{t.hero.getInTouch}</a>
             <a href="#experience" className="btn btn--outline">{t.hero.viewExperience}</a>
-            <a href="/cv.pdf" download="Viacheslav Matvieiev – Software Engineer CV.pdf" className="btn btn--outline">{t.hero.downloadCv}</a>
+            <a href="/cv.pdf" download="Viacheslav Matvieiev – Frontend Engineer CV.pdf" className="btn btn--outline">{t.hero.downloadCv}</a>
           </div>
         </RevealOnScroll>
       </div>

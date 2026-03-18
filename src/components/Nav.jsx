@@ -41,7 +41,7 @@ export default function Nav() {
           <li>
             <a
               href="/cv.pdf"
-              download="Viacheslav Matvieiev – Software Engineer CV.pdf"
+              download="Viacheslav Matvieiev – Frontend Engineer CV.pdf"
               className="nav__cta"
               onClick={closeMenu}
             >

@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ['latin', 'cyrillic'], variable: '--font-inter' }
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin', 'cyrillic'], variable: '--font-jetbrains' });
 
 export const metadata = {
-  title: 'Viacheslav Matvieiev \u2014 Software Engineer',
+  title: 'Viacheslav Matvieiev \u2014 Frontend Engineer',
   description:
-    'Front-end developer with 3+ years of commercial experience building web applications across sports, finance, IoT, and e-commerce sectors.',
+    'Frontend Engineer with 3 years building production-grade web apps across sports, fintech, IoT, and e-commerce.',
 };
 
 export default function RootLayout({ children }) {
