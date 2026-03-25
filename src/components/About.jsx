@@ -21,10 +21,12 @@ export default function About() {
               <p>
                 {t.about.text2Before}
                 <span className="accent">React</span>,{' '}
-                <span className="accent">Next.js</span>,{' '}
+                <span className="accent">Next.js</span>,
+                {t.about.text2Middle}
                 <span className="accent">Vue.js</span>
                 {t.about.text2After}
               </p>
+              <p>{t.about.text3}</p>
             </div>
             <div className="about__details">
               <div className="about__detail">

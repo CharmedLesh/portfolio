@@ -28,10 +28,12 @@ export const translations = {
       sectionNumber: '01.',
       title: 'About Me',
       text1:
-        'Shipped features as sole frontend developer on real\u2011time streaming systems; contributed to enterprise\u2011scale component libraries serving major UK clients. Comfortable owning work end\u2011to\u2011end \u2011 from architecture decisions to deployment.',
-      text2Before: 'Experienced with ',
+        'Frontend Engineer with 3+ years building production\u2011grade web applications across sports, fintech, IoT, and e\u2011commerce. I`ve worked across the full frontend spectrum \u2011 from architecting real\u2011time telemetry dashboards and implementing HLS video streaming as the sole developer, to contributing enterprise\u2011scale component libraries for major UK clients inside 30+ person Agile teams.',
+      text3: 'Currently available for remote contract and short\u2011term roles with US and EU product teams. I work best in environments where frontend quality is taken seriously \u2011 whether that means a well\u2011maintained design system, meaningful test coverage, or real attention to application performance.',
+      text2Before: 'I`m comfortable owning features end\u2011to\u2011end: from architecture decisions and API integration to testing infrastructure, accessibility, and deployment. I`ve shipped in ',
+      text2Middle: ' and ',
       text2After:
-        ' and modern front\u2011end tools.',
+        ' across both greenfield projects and deeply legacy codebases \u2011 including jQuery, PHP, and mixed\u2011stack environments.',
       yearsNumber: '3+',
       yearsLabel: 'Years of Experience',
       sectorsNumber: '5',
@@ -180,10 +182,12 @@ export const translations = {
       sectionNumber: '01.',
       title: 'Про мене',
       text1:
-        "Реалізовував функціонал як єдиний фронтенд\u2011розробник на системах потокового відео в реальному часі; створював корпоративні бібліотеки компонентів для великих клієнтів з Великобританії. Комфортно веду роботу від початку до кінця \u2011 від архітектурних рішень до розгортання.",
-      text2Before: 'Досвід роботи з ',
+        "Фронтенд\u2011інженер з понад 3 роками досвіду розробки веб\u2011застосунків для секторів спорту, фінтеху, IoT та електронної комерції. Я працював з усім спектром фронтенд\u2011застосунків \u2011 від розробки архітектури інформаційних панелей відображення телеметрії в реальному часі та впровадження потокового відео HLS як єдиний розробник, до розробки бібліотеки компонентів корпоративного масштабу для великих клієнтів з Великої Британії в рамках Agile\u2011команди з понад 30 осіб.",
+      text3: 'Наразі доступний для віддаленої роботи за контрактом та для короткострокових посад у продуктових командах США та ЄС. Найкраще себе почуваю в середовищах, де якість фронтенду сприймається серйозно \u2011 чи то добре підтримувана система дизайну, змістовне тестове покриття, чи справжня увага до продуктивності продукту.',
+      text2Before: 'Для мене не проблема вести розобку від початку до кінця: від архітектурних рішень та інтеграції API до тестування інфраструктури, доступності та розгортання. Я впроваджував ',
+      text2Middle: ' та ',
       text2After:
-        " та сучасними фронтенд\u2011інструментами.",
+        " як у новітніх проектах, так і в глибоко застарілих кодових базах, включаючи jQuery, PHP та змішані середовища.",
       yearsNumber: '3+',
       yearsLabel: 'Років Досвіду',
       sectorsNumber: '5',
