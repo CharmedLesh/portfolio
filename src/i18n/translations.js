@@ -3,7 +3,7 @@ export const translations = {
     meta: {
       title: 'Viacheslav Matvieiev \u2011 Frontend Engineer',
       description:
-        'Frontend Engineer with 3 years building production-grade web apps across sports, fintech, IoT, and e-commerce.',
+        'Frontend Engineer with over 2 years building production-grade web apps across sports, fintech, IoT, and e-commerce.',
     },
     nav: {
       about: 'About',
@@ -18,7 +18,7 @@ export const translations = {
       name: 'Viacheslav Matvieiev',
       title: 'Frontend Engineer',
       summary:
-        'Frontend Engineer with 3 years building production\u2011grade web apps across sports, fintech, IoT, and e\u2011commerce. Shipped features as sole frontend developer on real\u2011time streaming systems; contributed to enterprise\u2011scale component libraries serving major UK clients.',
+        'Frontend Engineer with over 2 years building production\u2011grade web apps across sports, fintech, IoT, and e\u2011commerce. Shipped features as sole frontend developer on real\u2011time streaming systems; contributed to enterprise\u2011scale component libraries serving major UK clients.',
       getInTouch: 'Get in Touch',
       viewExperience: 'View Experience',
       downloadCv: 'Download CV',
@@ -28,13 +28,13 @@ export const translations = {
       sectionNumber: '01.',
       title: 'About Me',
       text1:
-        'Frontend Engineer with 3+ years building production\u2011grade web applications across sports, fintech, IoT, and e\u2011commerce. I`ve worked across the full frontend spectrum \u2011 from architecting real\u2011time telemetry dashboards and implementing HLS video streaming as the sole developer, to contributing enterprise\u2011scale component libraries for major UK clients inside 30+ person Agile teams.',
+        'Frontend Engineer with 2+ years building production\u2011grade web applications across sports, fintech, IoT, and e\u2011commerce. I`ve worked across the full frontend spectrum \u2011 from architecting real\u2011time telemetry dashboards and implementing HLS video streaming as the sole developer, to contributing enterprise\u2011scale component libraries for major UK clients inside 30+ person Agile teams.',
       text3: 'Currently available for remote contract and short\u2011term roles with US and EU product teams. I work best in environments where frontend quality is taken seriously \u2011 whether that means a well\u2011maintained design system, meaningful test coverage, or real attention to application performance.',
       text2Before: 'I`m comfortable owning features end\u2011to\u2011end: from architecture decisions and API integration to testing infrastructure, accessibility, and deployment. I`ve shipped in ',
       text2Middle: ' and ',
       text2After:
         ' across both greenfield projects and deeply legacy codebases \u2011 including jQuery, PHP, and mixed\u2011stack environments.',
-      yearsNumber: '3+',
+      yearsNumber: '2+',
       yearsLabel: 'Years of Experience',
       sectorsNumber: '5',
       sectorsLabel: 'Enterprise Projects',
@@ -45,18 +45,6 @@ export const translations = {
       sectionNumber: '02.',
       title: 'Experience',
       jobs: [
-        {
-          role: 'Web Developer',
-          company: 'Freelance',
-          date: 'Nov 2022 \u2011 Aug 2023 / Feb 2026 \u2011 Present',
-          projects: [
-            {
-              description:
-                'Delivered 7 production landing pages across industries \u2011 pixel\u2011perfect, responsive, accessible, and cross\u2011browser, built with React, Next.js, Bootstrap, and Tailwind CSS. Acted as a consultant beyond pure development \u2011 proactively proposed design improvements that were adopted into final deliverables. Extended scope beyond frontend when needed: built custom RESTful APIs with NestJS/Node.js, integrated third\u2011party APIs, and configured Gmail SMTP.',
-              tags: ['React', 'Next.js', 'NestJS', 'Node.js', 'JavaScript', 'TypeScript', 'Bootstrap', 'CSS', 'SASS', 'Tailwind CSS', 'BEM', 'RESTful API', 'Figma', 'Git'],
-            },
-          ],
-        },
         {
           role: 'Frontend Engineer',
           company: 'Whitetech',
@@ -157,7 +145,7 @@ export const translations = {
     meta: {
       title: "В'ячеслав Матвєєв \u2011 Фронтенд\u2011інженер",
       description:
-        "Фронтенд\u2011інженер із 3 роками досвіду створення продакшн веб\u2011застосунків у сферах спорту, фінтеху, IoT та електронної комерції.",
+        "Фронтенд\u2011інженер із понад 2 роками досвіду створення продакшн веб\u2011застосунків у сферах спорту, фінтеху, IoT та електронної комерції.",
     },
     nav: {
       about: 'Про мене',
@@ -172,7 +160,7 @@ export const translations = {
       name: "В'ячеслав Матвєєв",
       title: "Фронтенд\u2011інженер",
       summary:
-        "Фронтенд\u2011інженер із 3 роками досвіду створення продакшн веб\u2011застосунків у сферах спорту, фінтеху, IoT та електронної комерції. Реалізовував функціонал як єдиний фронтенд\u2011розробник на системах потокового відео в реальному часі; створював корпоративні бібліотеки компонентів для великих клієнтів з Великобританії.",
+        "Фронтенд\u2011інженер із понад 2 роками досвіду створення продакшн веб\u2011застосунків у сферах спорту, фінтеху, IoT та електронної комерції. Реалізовував функціонал як єдиний фронтенд\u2011розробник на системах потокового відео в реальному часі; створював корпоративні бібліотеки компонентів для великих клієнтів з Великобританії.",
       getInTouch: "Зв'язатися",
       viewExperience: 'Переглянути досвід',
       downloadCv: 'Завантажити CV',
@@ -182,13 +170,13 @@ export const translations = {
       sectionNumber: '01.',
       title: 'Про мене',
       text1:
-        "Фронтенд\u2011інженер з понад 3 роками досвіду розробки веб\u2011застосунків для секторів спорту, фінтеху, IoT та електронної комерції. Я працював з усім спектром фронтенд\u2011застосунків \u2011 від розробки архітектури інформаційних панелей відображення телеметрії в реальному часі та впровадження потокового відео HLS як єдиний розробник, до розробки бібліотеки компонентів корпоративного масштабу для великих клієнтів з Великої Британії в рамках Agile\u2011команди з понад 30 осіб.",
+        "Фронтенд\u2011інженер із понад 2 роками досвіду розробки веб\u2011застосунків для секторів спорту, фінтеху, IoT та електронної комерції. Я працював з усім спектром фронтенд\u2011застосунків \u2011 від розробки архітектури інформаційних панелей відображення телеметрії в реальному часі та впровадження потокового відео HLS як єдиний розробник, до розробки бібліотеки компонентів корпоративного масштабу для великих клієнтів з Великої Британії в рамках Agile\u2011команди з понад 30 осіб.",
       text3: 'Наразі доступний для віддаленої роботи за контрактом та для короткострокових посад у продуктових командах США та ЄС. Найкраще себе почуваю в середовищах, де якість фронтенду сприймається серйозно \u2011 чи то добре підтримувана система дизайну, змістовне тестове покриття, чи справжня увага до продуктивності продукту.',
       text2Before: 'Для мене не проблема вести розобку від початку до кінця: від архітектурних рішень та інтеграції API до тестування інфраструктури, доступності та розгортання. Я впроваджував ',
       text2Middle: ' та ',
       text2After:
         " як у новітніх проектах, так і в глибоко застарілих кодових базах, включаючи jQuery, PHP та змішані середовища.",
-      yearsNumber: '3+',
+      yearsNumber: '2+',
       yearsLabel: 'Років Досвіду',
       sectorsNumber: '5',
       sectorsLabel: 'Корпоративних Проєктів',
@@ -199,18 +187,6 @@ export const translations = {
       sectionNumber: '02.',
       title: 'Досвід',
       jobs: [
-        {
-          role: 'Веб\u2011розробник',
-          company: 'Фриланс',
-          date: 'Лис 2022 \u2011 Сер 2023 / Лют 2026 \u2011 Дотепер',
-          projects: [
-            {
-              description:
-                "Розробив 7 піксель\u2011перфектних, адаптивних, доступних та кросбраузерних продакшн лендінгів у різних індустріях за допомогою React, Next.js, Bootstrap та Tailwind CSS. Виступав консультантом за межами чистої розробки \u2011 проактивно пропонував покращення дизайну, які були прийняті у фінальні продукти. Виконував розробку за межами фронтенду за потребою: створював RESTful API на NestJS/Node.js, інтегрував сторонні API та налаштовував Gmail SMTP.",
-              tags: ['React', 'Next.js', 'NestJS', 'Node.js', 'JavaScript', 'TypeScript', 'Bootstrap', 'CSS', 'SASS', 'Tailwind CSS', 'BEM', 'RESTful API', 'Figma', 'Git'],
-            },
-          ],
-        },
         {
           role: 'Фронтенд\u2011інженер',
           company: 'Whitetech',
@@ -300,10 +276,10 @@ export const translations = {
         linkedin: 'LinkedIn',
         telegram: 'Telegram',
       },
-      linkedinName: "В'ячеслав Матвєєв",
+      linkedinName: "Матвєєв В'ячеслав",
     },
     footer: {
-      text: "Спроєктовано та розроблено В'ячеславом Матвєєвим",
+      text: "Спроєктував та розробив Матвєєв В'ячеслав",
     },
   },
 };

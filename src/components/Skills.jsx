@@ -4,12 +4,12 @@ import { useLanguage } from '@/i18n/LanguageContext';
 import RevealOnScroll from './RevealOnScroll';
 
 const frontendItems = [
-  'JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'HTML5',
+  'JavaScript', 'TypeScript', 'React', 'Next.js', 'React Native', 'Vue.js', 'HTML5',
   'CSS3', 'Sass', 'BEM', 'Bootstrap', 'Tailwind CSS', 'Redux', 'MobX',
   'Zustand', 'i18next', 'Storybook', 'Zod', 'REST API', 'JWT', 'WebSocket',
 ];
 
-const testingItems = ['Jest', 'React Testing Library'];
+const testingItems = ['Jest', 'React Testing Library', 'Postman'];
 
 const devtoolsItems = ['Nx', 'Git', 'Bitbucket', 'Figma', 'Jira', 'Kanban', 'Scrum'];
 
@@ -37,9 +37,9 @@ export default function Skills() {
           </RevealOnScroll>
           <RevealOnScroll>
             <div className="skills__category">
-              <h3>{t.skills.testing}</h3>
+              <h3>{t.skills.devtools}</h3>
               <ul className="skills__list">
-                {testingItems.map((item) => (
+                {devtoolsItems.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
               </ul>
@@ -47,9 +47,9 @@ export default function Skills() {
           </RevealOnScroll>
           <RevealOnScroll>
             <div className="skills__category">
-              <h3>{t.skills.devtools}</h3>
+              <h3>{t.skills.testing}</h3>
               <ul className="skills__list">
-                {devtoolsItems.map((item) => (
+                {testingItems.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
               </ul>
