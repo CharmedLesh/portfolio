@@ -97,6 +97,7 @@ export const translations = {
       frontend: 'Front\u2011End Technologies',
       testing: 'Testing',
       devtools: 'Dev Tools & Collaboration',
+      ai: 'Artificial Intelligence',
       languages: 'Languages',
       langItems: [
         { name: 'English', level: 'Professional' },
@@ -239,6 +240,7 @@ export const translations = {
       frontend: 'Фронтенд\u2011технології',
       testing: 'Тестування',
       devtools: 'Інструменти та співпраця',
+      ai: 'Штучний Інтелект',
       languages: 'Мови',
       langItems: [
         { name: 'Англійська', level: 'Професійна' },

@@ -13,6 +13,8 @@ const testingItems = ['Jest', 'React Testing Library', 'Postman'];
 
 const devtoolsItems = ['Nx', 'Git', 'Bitbucket', 'Figma', 'Jira', 'Kanban', 'Scrum'];
 
+const aiItems = ['Claude', 'Claude Code', 'Gemini', 'Cursor', 'ChatGPT', 'Stable Diffusion'];
+
 export default function Skills() {
   const { t } = useLanguage();
 
@@ -50,6 +52,16 @@ export default function Skills() {
               <h3>{t.skills.testing}</h3>
               <ul className="skills__list">
                 {testingItems.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </RevealOnScroll>
+          <RevealOnScroll>
+            <div className="skills__category">
+              <h3>{t.skills.ai}</h3>
+              <ul className="skills__list">
+                {aiItems.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
               </ul>

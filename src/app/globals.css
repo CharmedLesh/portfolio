@@ -513,6 +513,10 @@ ul {
   display: flex;
 }
 
+.skills__grid > *:last-child {
+  grid-column: 1 / -1;
+}
+
 .skills__grid > * > * {
   flex: 1;
 }
@@ -929,6 +933,10 @@ ul {
 
   .skills__grid {
     grid-template-columns: 1fr;
+  }
+
+  .skills__grid > *:last-child {
+    grid-column: auto;
   }
 
   .contact__layout {
