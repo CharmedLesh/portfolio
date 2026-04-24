@@ -87,10 +87,20 @@ ul {
 }
 
 .nav--scrolled {
+  box-shadow: 0 1px 0 var(--border);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav--scrolled::before {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  content: '';
+  position: absolute;
+  inset: 0;
   background-color: rgba(10, 10, 11, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  box-shadow: 0 1px 0 var(--border);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .nav__container {
@@ -880,6 +890,10 @@ ul {
 @media (max-width: 1024px) {
   .nav__toggle {
     display: flex;
+  }
+
+  .nav--scrolled .nav__links {
+    background-color: rgba(10, 10, 11, 0.85);
   }
 
   .nav__links {
