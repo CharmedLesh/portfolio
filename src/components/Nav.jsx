@@ -38,6 +38,7 @@ export default function Nav() {
           <li><a href="#experience" onClick={closeMenu}>{t.nav.experience}</a></li>
           <li><a href="#skills" onClick={closeMenu}>{t.nav.skills}</a></li>
           <li><a href="#education" onClick={closeMenu}>{t.nav.education}</a></li>
+          <li><a href="#certificates" onClick={closeMenu}>{t.nav.certificates}</a></li>
           <li><a href="#contact" onClick={closeMenu}>{t.nav.contact}</a></li>
           <li>
             <a

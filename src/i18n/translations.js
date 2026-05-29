@@ -10,6 +10,7 @@ export const translations = {
       experience: 'Experience',
       skills: 'Skills',
       education: 'Education',
+      certificates: 'Certificates',
       contact: 'Contact',
       downloadCv: 'Download CV',
     },
@@ -112,8 +113,35 @@ export const translations = {
       school: 'Petro Mohyla Black Sea National University',
       date: 'September 2020 \u2011 June 2024',
     },
-    contact: {
+    certificates: {
       sectionNumber: '05.',
+      title: 'Certificates',
+      issuedLabel: 'Issued',
+      credentialIdLabel: 'Credential ID',
+      showCredential: 'Show credential',
+      viewCertificate: 'View certificate',
+      closeLabel: 'Close',
+      items: [
+        {
+          name: 'Claude Code in Action',
+          issuer: 'Anthropic',
+          date: 'May 2026',
+          credentialId: 'jmho4x8buhtk',
+          credentialUrl: 'https://verify.skilljar.com/c/jmho4x8buhtk',
+          pdf: '/certificate-claude-code-in-action.pdf',
+        },
+        {
+          name: 'Introduction to Agent Skills',
+          issuer: 'Anthropic',
+          date: 'May 2026',
+          credentialId: '7ruv9uar8kgx',
+          credentialUrl: 'https://verify.skilljar.com/c/7ruv9uar8kgx',
+          pdf: '/certificate-introduction-to-agent-skills.pdf',
+        },
+      ],
+    },
+    contact: {
+      sectionNumber: '06.',
       title: 'Get in Touch',
       text: "I'm currently open to new opportunities. Whether you have a question or just want to say hi, feel free to reach out.",
       form: {
@@ -153,6 +181,7 @@ export const translations = {
       experience: 'Досвід',
       skills: 'Навички',
       education: 'Освіта',
+      certificates: 'Сертифікати',
       contact: 'Контакт',
       downloadCv: 'Завантажити CV',
     },
@@ -255,8 +284,35 @@ export const translations = {
       school: 'Чорноморський національний університет імені Петра Могили',
       date: 'Вересень 2020 \u2011 Червень 2024',
     },
-    contact: {
+    certificates: {
       sectionNumber: '05.',
+      title: 'Сертифікати',
+      issuedLabel: 'Видано',
+      credentialIdLabel: 'ID сертифіката',
+      showCredential: 'Переглянути підтвердження',
+      viewCertificate: 'Переглянути сертифікат',
+      closeLabel: 'Закрити',
+      items: [
+        {
+          name: 'Claude Code in Action',
+          issuer: 'Anthropic',
+          date: 'Травень 2026',
+          credentialId: 'jmho4x8buhtk',
+          credentialUrl: 'https://verify.skilljar.com/c/jmho4x8buhtk',
+          pdf: '/certificate-claude-code-in-action.pdf',
+        },
+        {
+          name: 'Introduction to Agent Skills',
+          issuer: 'Anthropic',
+          date: 'Травень 2026',
+          credentialId: '7ruv9uar8kgx',
+          credentialUrl: 'https://verify.skilljar.com/c/7ruv9uar8kgx',
+          pdf: '/certificate-introduction-to-agent-skills.pdf',
+        },
+      ],
+    },
+    contact: {
+      sectionNumber: '06.',
       title: "Зв'язатися",
       text: 'Наразі я відкритий до нових можливостей. Якщо у вас є питання або ви просто хочете привітатися, не соромтеся написати.',
       form: {
