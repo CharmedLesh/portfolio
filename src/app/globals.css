@@ -496,6 +496,13 @@ ul {
   line-height: 1.7;
 }
 
+.timeline__project p.timeline__project-meta {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
 .timeline__tags {
   display: flex;
   flex-wrap: wrap;
@@ -521,10 +528,6 @@ ul {
 
 .skills__grid > * {
   display: flex;
-}
-
-.skills__grid > *:last-child {
-  grid-column: 1 / -1;
 }
 
 .skills__grid > * > * {
@@ -1189,10 +1192,6 @@ ul {
 
   .skills__grid {
     grid-template-columns: 1fr;
-  }
-
-  .skills__grid > *:last-child {
-    grid-column: auto;
   }
 
   .certificates__grid {

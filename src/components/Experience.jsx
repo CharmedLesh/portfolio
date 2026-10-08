@@ -32,6 +32,7 @@ export default function Experience() {
                     {job.projects.map((project, j) => (
                       <div className="timeline__project" key={j}>
                         {project.title && <h4>{project.title}</h4>}
+                        {project.meta && <p className="timeline__project-meta">{project.meta}</p>}
                         <p>{project.description}</p>
                         <div className="timeline__tags">
                           {project.tags.map((tag) => (

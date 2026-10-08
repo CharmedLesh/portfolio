@@ -3,7 +3,7 @@ export const translations = {
     meta: {
       title: 'Viacheslav Matvieiev \u2011 Frontend Engineer',
       description:
-        'Frontend Engineer with over 2 years building production-grade web apps across sports, fintech, IoT, and e-commerce.',
+        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js for products with millions of users.',
     },
     nav: {
       about: 'About',
@@ -19,7 +19,7 @@ export const translations = {
       name: 'Viacheslav Matvieiev',
       title: 'Frontend Engineer',
       summary:
-        'Frontend Engineer with over 2 years building production\u2011grade web apps across sports, fintech, IoT, and e\u2011commerce. Shipped features as sole frontend developer on real\u2011time streaming systems; contributed to enterprise\u2011scale component libraries serving major UK clients.',
+        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js. Shipped features for products with millions of users, including Manchester City F.C. (5M+ monthly visits) and a digital keys marketplace (3M+ monthly visits). Experienced in leading frontend development, from architecture decisions to deployment.',
       getInTouch: 'Get in Touch',
       viewExperience: 'View Experience',
       downloadCv: 'Download CV',
@@ -29,18 +29,18 @@ export const translations = {
       sectionNumber: '01.',
       title: 'About Me',
       text1:
-        'Frontend Engineer with 2+ years building production\u2011grade web applications across sports, fintech, IoT, and e\u2011commerce. I`ve worked across the full frontend spectrum \u2011 from architecting real\u2011time telemetry dashboards and implementing HLS video streaming as the sole developer, to contributing enterprise\u2011scale component libraries for major UK clients inside 30+ person Agile teams.',
-      text3: 'Currently available for remote contract and short\u2011term roles with US and EU product teams. I work best in environments where frontend quality is taken seriously \u2011 whether that means a well\u2011maintained design system, meaningful test coverage, or real attention to application performance.',
+        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js across media, e\u2011commerce, fintech, SaaS, and IoT. I`ve shipped features for products with millions of users, including Manchester City F.C. (5M+ monthly visits) and a digital keys marketplace (3M+ monthly visits).',
+      text3: 'Based in Tbilisi, Georgia (UTC+4). I work best in environments where frontend quality is taken seriously \u2011 whether that means a well\u2011maintained design system, meaningful test coverage, or real attention to application performance.',
       text2Before: 'I`m comfortable owning features end\u2011to\u2011end: from architecture decisions and API integration to testing infrastructure, accessibility, and deployment. I`ve shipped in ',
       text2Middle: ' and ',
       text2After:
         ' across both greenfield projects and deeply legacy codebases \u2011 including jQuery, PHP, and mixed\u2011stack environments.',
-      yearsNumber: '2+',
+      yearsNumber: '3',
       yearsLabel: 'Years of Experience',
-      sectorsNumber: '5',
-      sectorsLabel: 'Enterprise Projects',
-      projectsNumber: '7',
-      projectsLabel: 'Delivered Projects',
+      visitsNumber: '8M+',
+      visitsLabel: 'Monthly Visits on Shipped Products',
+      promotionsNumber: '2\u00d7',
+      promotionsLabel: 'Projects Led',
     },
     experience: {
       sectionNumber: '02.',
@@ -48,20 +48,22 @@ export const translations = {
       jobs: [
         {
           role: 'Frontend Engineer',
-          company: 'Whitetech',
-          date: 'Jul 2025 \u2011 Oct 2025',
+          company: 'WhiteTech',
+          date: 'Sep 2025 \u2011 Sep 2026',
           projects: [
             {
-              title: 'Web Application Builder Platform',
+              title: 'Digital Keys Marketplace',
+              meta: 'E\u2011commerce, Marketplace \u00b7 3M+ monthly visits',
               description:
-                'Joined a no\u2011code web application builder platform at pre\u2011MVP stage \u2011 contributed 10+ UI components to the React/Next.js (SSR) codebase and integrated them into the Storybook library with Jest test coverage. Improved overall product quality by systematically resolving visual, logical, cross\u2011browser, and accessibility issues inherited from the prototyping phase. Reassigned prior to MVP release to a higher\u2011priority production project \u2011 a recognition of capacity and reliability rather than a project end.',
-              tags: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'CSS', 'SASS', 'Tailwind CSS', 'Storybook', 'Jest', 'React Testing Library', 'RESTful API', 'Jira', 'Figma', 'Git'],
+                'Sole frontend developer shipping features on a legacy project within tight deadlines. Shipped a real\u2011time messaging system with Vue 3 and WebSocket and integrated the messenger into a legacy JavaScript/jQuery/PHP codebase with no disruption to existing functionality. Managed a complex local development environment independently using Ubuntu VM with Docker.',
+              tags: ['React', 'Vue', 'jQuery', 'Node.js', 'JavaScript', 'PHP', 'WebSocket', 'Jest', 'Docker'],
             },
             {
-              title: 'Digital Key Marketplace',
+              title: 'Web Application Builder Platform',
+              meta: 'SaaS, PaaS, No\u2011code platform, Application builder \u00b7 Startup',
               description:
-                'Sole frontend developer on a major new feature \u2011 a real\u2011time messaging system for customers and sellers built with Vue 3 and WebSocket. Integrated the messenger seamlessly into a legacy JavaScript/jQuery/PHP codebase with no disruption to existing functionality. Managed a complex local development environment independently using Ubuntu VM with Docker. Delivered end\u2011to\u2011end within a 3\u2011week deadline.',
-              tags: ['Vue 3', 'jQuery', 'JavaScript', 'TypeScript', 'CSS', 'WebSocket', 'Docker', 'RESTful API', 'Jira', 'Figma', 'Git'],
+                'Joined a no\u2011code web application builder platform at pre\u2011MVP stage. Improved overall product quality by systematically resolving issues inherited from the prototyping phase. Built 20+ Storybook components with full Jest coverage and configured tests, themes, docs, and Figma addons for Storybook. Promoted to lead frontend on a high\u2011priority production project (Digital Keys Marketplace) in recognition of consistent delivery.',
+              tags: ['React', 'Next.js', 'TypeScript', 'Storybook', 'Jest'],
             },
           ],
         },
@@ -71,22 +73,25 @@ export const translations = {
           date: 'Aug 2023 \u2011 Aug 2025',
           projects: [
             {
-              title: 'UK Major Sports Club',
+              title: 'US Private Capital Fund Administration Service',
+              meta: 'FinTech \u00b7 $1.5T+ AuA, 12K+ fund entities, 500+ clients',
               description:
-                'Worked as part of a 30+ person international Agile team maintaining and extending a suite of applications for a major UK sports club. Contributed 20+ reusable components to the internal Storybook library, used across 3 production applications. Replaced 6 third\u2011party UI components with custom React implementations, improving Lighthouse score by ~15 points and eliminating ~200KB from the production bundle. Implemented RESTful API integrations across the application suite, handling data transformation and normalization for centralized state management. Resolved a critical auth flow bug on a specific legacy iOS version \u2011 traced an endless redirect loop and incorrect token handling, restoring login functionality for all affected users. Promoted mid\u2011engagement to carry frontend on a new product division \u2011 bootstrapped a Next.js app from zero to demo in 4 weeks, including Jest/RTL testing infrastructure, SSR/SSG architecture, and a product\u2011specific design token framework.',
-              tags: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'CSS', 'SASS', 'BEM', 'Storybook', 'Jest', 'React Testing Library', 'RESTful API', 'JWT', 'Jira', 'Figma', 'Bitbucket', 'Git'],
+                'Delivered new features and improvements across a multi\u2011app platform, working across both modern and legacy codebases. Created test coverage, detecting and fixing more than 15 bugs. Integrated backend API endpoints to coordinate features across multiple client\u2011facing applications.',
+              tags: ['React', 'jQuery', 'TypeScript', 'Jest'],
             },
             {
-              title: 'Ukrainian Video & Telemetry Streaming Application',
+              title: 'Video & Telemetry Streaming Application',
+              meta: 'Streaming, IoT, MilTech \u00b7 Proof\u2011of\u2011concept built for a prospective client',
               description:
-                'Sole developer (frontend + tooling) on an internal IoT dashboard \u2011 owned the full lifecycle from architecture design to remote deployment via SSH, delivering in 3 weeks. Built a real\u2011time telemetry visualization interface in React, consuming live data streams with sub\u2011second latency. Developed a Python data emulator from scratch to generate and transmit telemetry signals, enabling frontend development and testing without physical hardware at early stage. Implemented HLS video streaming alongside the telemetry dashboard, delivering a unified real\u2011time monitoring interface.',
-              tags: ['React', 'JavaScript', 'TypeScript', 'Python', 'CSS', 'HLS', 'RESTful API', 'WebSocket', 'JWT', 'Figma', 'Git', 'SSH'],
+                'Owned the full lifecycle as the only frontend developer. Built a real\u2011time telemetry visualization interface that consumed live data streams with sub\u2011second latency. Developed a data emulator to generate and transmit telemetry signals, enabling development without physical hardware. Implemented HLS video streaming alongside the telemetry dashboard, delivering a unified real\u2011time monitoring interface. Deployed and maintained the demo environment on a remote server, enabling live presentations to the prospective client.',
+              tags: ['React', 'Next.js', 'Node.js', 'TypeScript', 'WebSocket', 'HLS'],
             },
             {
-              title: 'US Fund Service',
+              title: 'Manchester City F.C.',
+              meta: 'Media, E\u2011commerce \u00b7 5M+ monthly visits',
               description:
-                'Delivered new features and legacy improvements across a multi\u2011app fintech platform serving US\u2011based financial services clients, working across both modern React and jQuery codebases. Wrote comprehensive Jest test coverage for existing functionality, improving codebase stability ahead of new feature rollout. Integrated backend API endpoints to enable feature coordination across multiple client\u2011facing applications, collaborating directly with backend developers.',
-              tags: ['React', 'jQuery', 'JavaScript', 'CSS', 'Jest', 'React Testing Library', 'RESTful API', 'Figma', 'Azure DevOps', 'Git'],
+                'Contributed 20+ reusable components to the internal Storybook library, used across 3 production applications. Replaced third\u2011party UI components, improving Lighthouse score by ~15 points and eliminating ~200KB from the bundle. Implemented REST API integrations, handling data transformation for centralized state management. Resolved critical auth\u2011flow bugs on legacy iOS versions, restoring login for thousands of affected users. Promoted mid\u2011engagement to lead frontend for a new division, bootstrapping its Next.js app from zero to demo in 4 weeks.',
+              tags: ['React', 'Next.js', 'TypeScript', 'Storybook', 'i18next', 'Nx', 'Jest'],
             },
           ],
         },
@@ -95,13 +100,14 @@ export const translations = {
     skills: {
       sectionNumber: '03.',
       title: 'Skills',
-      frontend: 'Front\u2011End Technologies',
-      testing: 'Testing',
-      devtools: 'Dev Tools & Collaboration',
+      core: 'Core',
+      markup: 'Markup & Styling',
+      state: 'State & Data',
+      tooling: 'Tests & Tooling',
       ai: 'Artificial Intelligence',
       languages: 'Languages',
       langItems: [
-        { name: 'English', level: 'Professional' },
+        { name: 'English', level: 'Professional (C1)' },
         { name: 'Ukrainian', level: 'Native' },
         { name: 'Russian', level: 'Native' },
       ],
@@ -172,9 +178,9 @@ export const translations = {
 
   uk: {
     meta: {
-      title: "В'ячеслав Матвєєв \u2011 Фронтенд\u2011інженер",
+      title: "В'ячеслав Матвєєв ‑ Фронтенд‑інженер",
       description:
-        "Фронтенд\u2011інженер із понад 2 роками досвіду створення продакшн веб\u2011застосунків у сферах спорту, фінтеху, IoT та електронної комерції.",
+        "Фронтенд‑інженер із 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js для продуктів з мільйонами користувачів.",
     },
     nav: {
       about: 'Про мене',
@@ -188,9 +194,9 @@ export const translations = {
     hero: {
       greeting: 'Привіт, мене звати',
       name: "Матвєєв В'ячеслав",
-      title: "Фронтенд\u2011інженер",
+      title: "Фронтенд‑інженер",
       summary:
-        "Фронтенд\u2011інженер із понад 2 роками досвіду створення продакшн веб\u2011застосунків у сферах спорту, фінтеху, IoT та електронної комерції. Реалізовував функціонал як єдиний фронтенд\u2011розробник на системах потокового відео в реальному часі; створював корпоративні бібліотеки компонентів для великих клієнтів з Великобританії.",
+        "Фронтенд‑інженер із 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js. Реалізовував функціонал для продуктів з мільйонами користувачів, зокрема Manchester City F.C. (5M+ відвідувань на місяць) та маркетплейсу цифрових ключів (3M+ відвідувань на місяць). Маю досвід керівництва розробки фронтенду: від прийняття архітектурних рішень до розгортання.",
       getInTouch: "Зв'язатися",
       viewExperience: 'Переглянути досвід',
       downloadCv: 'Завантажити CV',
@@ -200,64 +206,69 @@ export const translations = {
       sectionNumber: '01.',
       title: 'Про мене',
       text1:
-        "Фронтенд\u2011інженер із понад 2 роками досвіду розробки веб\u2011застосунків для секторів спорту, фінтеху, IoT та електронної комерції. Я працював з усім спектром фронтенд\u2011застосунків \u2011 від розробки архітектури інформаційних панелей відображення телеметрії в реальному часі та впровадження потокового відео HLS як єдиний розробник, до розробки бібліотеки компонентів корпоративного масштабу для великих клієнтів з Великої Британії в рамках Agile\u2011команди з понад 30 осіб.",
-      text3: 'Наразі доступний для віддаленої роботи за контрактом та для короткострокових посад у продуктових командах США та ЄС. Найкраще себе почуваю в середовищах, де якість фронтенду сприймається серйозно \u2011 чи то добре підтримувана система дизайну, змістовне тестове покриття, чи справжня увага до продуктивності продукту.',
-      text2Before: 'Для мене не проблема вести розобку від початку до кінця: від архітектурних рішень та інтеграції API до тестування інфраструктури, доступності та розгортання. Я впроваджував ',
+        "Фронтенд‑інженер із 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js у сферах медіа, електронної комерції, фінтеху, SaaS та IoT. Реалізовував функціонал для продуктів з мільйонами користувачів, зокрема Manchester City F.C. (5M+ відвідувань на місяць) та маркетплейсу цифрових ключів (3M+ відвідувань на місяць).",
+      text3: 'Перебуваю в Тбілісі, Грузія (UTC+4). Показую найкращі результати в середовищах, де якість фронтенду сприймається серйозно ‑ чи то добре підтримувана система дизайну, змістовне тестове покриття, чи справжня увага до продуктивності продукту.',
+      text2Before: 'Для мене не проблема вести розробку від початку до кінця: від архітектурних рішень та інтеграції API до тестування інфраструктури, доступності та розгортання. Я впроваджував ',
       text2Middle: ' та ',
       text2After:
         " як у новітніх проектах, так і в глибоко застарілих кодових базах, включаючи jQuery, PHP та змішані середовища.",
-      yearsNumber: '2+',
-      yearsLabel: 'Років Досвіду',
-      sectorsNumber: '5',
-      sectorsLabel: 'Корпоративних Проєктів',
-      projectsNumber: '7',
-      projectsLabel: 'Реалізованих Проєктів',
+      yearsNumber: '3',
+      yearsLabel: 'Роки Досвіду',
+      visitsNumber: '8M+',
+      visitsLabel: 'Відвідувань на Місяць у Продуктах',
+      promotionsNumber: '2×',
+      promotionsLabel: 'Підвищення до Лід Фронтенду',
     },
     experience: {
       sectionNumber: '02.',
       title: 'Досвід',
       jobs: [
         {
-          role: 'Фронтенд\u2011інженер',
-          company: 'Whitetech',
-          date: 'Лип 2025 \u2011 Жов 2025',
+          role: 'Фронтенд‑інженер',
+          company: 'WhiteTech',
+          date: 'Вер 2025 ‑ Вер 2026',
           projects: [
             {
-              title: 'Платформа для створення веб\u2011застосунків',
+              title: 'Маркетплейс цифрових ключів',
+              meta: 'Електронна комерція, Маркетплейс · 3M+ відвідувань на місяць',
               description:
-                "Приєднався до no\u2011code платформи для створення веб\u2011застосунків на етапі pre\u2011MVP \u2011 розробив 10+ UI\u2011компонентів для React/Next.js (SSR) кодової бази та інтегрував їх до бібліотеки Storybook із покриттям Jest тестами. Покращив загальну якість продукту, систематично вирішуючи візуальні, логічні, кросбраузерні проблеми та проблеми доступності, успадковані від фази прототипування. Переведений на проєкт з вищим пріоритетом до релізу MVP \u2011 у результаті визнання компетентності та надійності, а не завершення проєкту.",
-              tags: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'CSS', 'SASS', 'Tailwind CSS', 'Storybook', 'Jest', 'React Testing Library', 'RESTful API', 'Jira', 'Figma', 'Git'],
+                "Соло фронтенд‑розробник, що реалізовував функціонал на legacy‑проєкті в стислі терміни. Розробив чат в реальному часі на Vue 3 та WebSocket та інтегрував месенджер у застарілу JavaScript/jQuery/PHP кодову базу без порушення існуючого функціоналу. Самостійно керував складним локальним середовищем розробки з використанням Ubuntu VM та Docker.",
+              tags: ['React', 'Vue', 'jQuery', 'Node.js', 'JavaScript', 'PHP', 'WebSocket', 'Jest', 'Docker'],
             },
             {
-              title: 'Маркетплейс цифрових ключів',
+              title: 'Платформа для створення веб‑застосунків',
+              meta: 'SaaS, PaaS, No‑code платформа, Конструктор застосунків · Стартап',
               description:
-                "Єдиний фронтенд\u2011розробник для розробки великої фічі \u2011 системи обміну повідомленнями в реальному часі для покупців та продавців, побудованій на Vue 3 та WebSocket. Безшовно інтегрував месенджер у застарілу JavaScript/jQuery/PHP кодову базу без порушення існуючої функціональності. Самостійно керував складним локальним середовищем розробки з використанням Ubuntu VM та Docker. Завершив розробку у 3\u2011тижневий дедлайн.",
-              tags: ['Vue 3', 'jQuery', 'JavaScript', 'TypeScript', 'CSS', 'WebSocket', 'Docker', 'RESTful API', 'Jira', 'Figma', 'Git'],
+                "Приєднався до no‑code платформи для створення веб‑застосунків на етапі pre‑MVP. Покращив загальну якість продукту, систематично вирішуючи проблеми успадковані від фази прототипування. Створив 20+ компонентів у Storybook з повним покриттям Jest тестами та налаштував для Storybook плагіни тем, тестів, документації та Figma. Отримав підвищення до керівника фронтенду на високопріоритетному продакшн‑проєкті (Маркетплейс цифрових ключів) за визнання стабільних результатів.",
+              tags: ['React', 'Next.js', 'TypeScript', 'Storybook', 'Jest'],
             },
           ],
         },
         {
-          role: 'Інженер\u2011програміст',
+          role: 'Інженер‑програміст',
           company: 'GlobalLogic',
-          date: 'Сер 2023 \u2011 Сер 2025',
+          date: 'Сер 2023 ‑ Сер 2025',
           projects: [
             {
-              title: 'Великий спортивний клуб Великобританії',
+              title: 'Сервіс адміністрування приватних інвестиційних фондів США',
+              meta: 'Фінтех · $1.5T+ активів в адмініструванні, 12K+ фондів, 500+ клієнтів',
               description:
-                "Працював у складі міжнародної Agile\u2011команди з 30+ осіб, підтримуючи та розширюючи набір застосунків для великого спортивного клубу Великобританії. Створив 20+ повторно використовуваних компонентів для внутрішньої бібліотеки Storybook, що використовуються у 3 продакшн\u2011застосунках. Замінив 6 сторонніх UI\u2011компонентів власними React\u2011реалізаціями, покращивши Lighthouse на ~15 пунктів та зменшивши продакшн\u2011бандл на ~200КБ. Реалізував інтеграції RESTful API по всьому набору застосунків, виконуючи трансформацію та нормалізацію даних для централізованого менеджменту станів. Вирішив критичний баг авторизації на специфічній застарілій версії iOS \u2011 відстежив нескінченний цикл пересилань та неправильну обробку токенів, відновивши функціональність логіну для всіх постраждалих користувачів. По ходу проєкту був підвищений до ведення фронтенду у складі нового продуктового підрозділу \u2011 побудував Next.js застосунок з нуля до демо за 4 тижні, включаючи інфраструктуру тестування Jest/RTL, архітектуру SSR/SSG та дизайн\u2011токен фреймворк розроблений спеціально під продукт.",
-              tags: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'CSS', 'SASS', 'BEM', 'Storybook', 'Jest', 'React Testing Library', 'RESTful API', 'JWT', 'Jira', 'Figma', 'Bitbucket', 'Git'],
+                "Реалізовував нові фічі та фікси мульти‑додаткової платформи, працюючи як із сучасним, так і з застарілим кодом. Створив тестове покриття, завдяки якому виявив та виправив понад 15 багів. Інтегрував ендпоінти API для координації функціоналу між кількома клієнтськими застосунками.",
+              tags: ['React', 'jQuery', 'TypeScript', 'Jest'],
             },
             {
-              title: 'Український застосунок потокового відео та телеметрії',
+              title: 'Застосунок потокового відео та телеметрії',
+              meta: 'Стримінг, IoT, MilTech · Proof‑of‑concept для потенційного клієнта',
               description:
-                "Єдиний розробник (фронтенд + інструменти) на внутрішньому IoT\u2011дашборді \u2011 вів повний цикл від проєктування архітектури до віддаленого розгортання через SSH за 3 тижні. Побудував інтерфейс візуалізації телеметрії в реальному часі на React, споживаючи потоки даних із затримкою в долю секунди. Розробив з нуля емулятор даних на Python для генерації та передачі телеметричних сигналів, що дозволило вести фронтенд\u2011розробку та тестування без фізичного обладнання на ранньому етапі. Реалізував HLS стримінг відео поряд із телеметричним дашбордом, забезпечуючи єдиний інтерфейс моніторингу в реальному часі.",
-              tags: ['React', 'JavaScript', 'TypeScript', 'Python', 'CSS', 'HLS', 'RESTful API', 'WebSocket', 'JWT', 'Figma', 'Git', 'SSH'],
+                "Вів повний цикл розробки як єдиний фронтенд‑розробник. Побудував інтерфейс візуалізації телеметрії в реальному часі, що отримував потоки даних із затримкою менше секунди. Розробив емулятор даних для генерації та передачі телеметричних сигналів, що дозволило вести розробку без фізичного обладнання. Реалізував HLS стримінг відео поряд із телеметричним дашбордом, забезпечивши єдиний інтерфейс моніторингу в реальному часі. Розгорнув та підтримував демо‑середовище на віддаленому сервері, що дозволило проводити живі презентації для потенційного клієнта.",
+              tags: ['React', 'Next.js', 'Node.js', 'TypeScript', 'WebSocket', 'HLS'],
             },
             {
-              title: 'Фінансовий сервіс США',
+              title: 'Manchester City F.C.',
+              meta: 'Медіа, Електронна комерція · 5M+ відвідувань на місяць',
               description:
-                "Реалізовував нові фічі та покращення застарілої мульти\u2011додаткової фінтех\u2011платформи для US\u2011клієнтів у сфері фінансових послуг, працюючи як із сучасними React, так і з jQuery кодовими базами. Створив комплексне покриття Jest тестами для існуючого функціоналу, підвищивши стабільність кодової бази перед розгортанням нових фіч. Інтегрував бекенд API\u2011ендпоінти для координації функціоналу між кількома клієнтськими застосунками, співпрацюючи безпосередньо з бекенд\u2011розробниками.",
-              tags: ['React', 'jQuery', 'JavaScript', 'CSS', 'Jest', 'React Testing Library', 'RESTful API', 'Figma', 'Azure DevOps', 'Git'],
+                "Створив 20+ повторно використовуваних компонентів для внутрішньої бібліотеки Storybook, що наразі використовуються у 3 продакшн‑застосунках. Замінив сторонні UI‑компоненти, покращивши оцінку Lighthouse на ~15 пунктів та зменшивши бандл на ~200КБ. Реалізував інтеграції REST API, виконуючи трансформацію даних для централізованого менеджменту станів. Вирішив критичні баги авторизації на застарілих версіях iOS, відновивши логін для тисяч користувачів. По ходу проєкту отримав підвищення до керування фронтендом у новому підрозділі, де побудував новий Next.js застосунок з нуля до демо за 4 тижні.",
+              tags: ['React', 'Next.js', 'TypeScript', 'Storybook', 'i18next', 'Nx', 'Jest'],
             },
           ],
         },
@@ -266,13 +277,14 @@ export const translations = {
     skills: {
       sectionNumber: '03.',
       title: 'Навички',
-      frontend: 'Фронтенд\u2011технології',
-      testing: 'Тестування',
-      devtools: 'Інструменти та співпраця',
+      core: 'Основне',
+      markup: 'Розмітка та стилі',
+      state: 'Стан та дані',
+      tooling: 'Тести та інструменти',
       ai: 'Штучний Інтелект',
       languages: 'Мови',
       langItems: [
-        { name: 'Англійська', level: 'Професійна' },
+        { name: 'Англійська', level: 'Професійна (C1)' },
         { name: 'Українська', level: 'Рідна' },
         { name: 'Російська', level: 'Рідна' },
       ],

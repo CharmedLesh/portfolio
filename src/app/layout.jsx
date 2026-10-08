@@ -8,7 +8,7 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ['latin', 'cyrillic'], variable:
 export const metadata = {
   title: 'Viacheslav Matvieiev \u2014 Frontend Engineer',
   description:
-    'Frontend Engineer with 3 years building production-grade web apps across sports, fintech, IoT, and e-commerce.',
+    'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js for products with millions of users.',
 };
 
 export default function RootLayout({ children }) {

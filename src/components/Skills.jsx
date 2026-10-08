@@ -3,17 +3,13 @@
 import { useLanguage } from '@/i18n/LanguageContext';
 import RevealOnScroll from './RevealOnScroll';
 
-const frontendItems = [
-  'JavaScript', 'TypeScript', 'React', 'Next.js', 'React Native', 'Vue.js', 'HTML5',
-  'CSS3', 'Sass', 'BEM', 'Bootstrap', 'Tailwind CSS', 'Redux', 'MobX',
-  'Zustand', 'i18next', 'Storybook', 'Zod', 'REST API', 'JWT', 'WebSocket',
+const categories = [
+  { key: 'core', items: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'jQuery', 'Node.js'] },
+  { key: 'markup', items: ['HTML5', 'BEM', 'CSS3', 'Sass', 'Bootstrap', 'Tailwind CSS'] },
+  { key: 'state', items: ['Redux', 'MobX', 'Zustand', 'Zod', 'REST API', 'JWT', 'WebSocket', 'i18next'] },
+  { key: 'tooling', items: ['Jest', 'React Testing Library', 'Storybook', 'Nx', 'Git', 'Jira', 'Figma', 'Docker'] },
+  { key: 'ai', items: ['Claude Code', 'Codex', 'Cursor'] },
 ];
-
-const testingItems = ['Jest', 'React Testing Library', 'Postman'];
-
-const devtoolsItems = ['Nx', 'Git', 'Bitbucket', 'Figma', 'Jira', 'Kanban', 'Scrum'];
-
-const aiItems = ['Claude', 'Claude Code', 'Gemini', 'Cursor', 'ChatGPT', 'Stable Diffusion'];
 
 export default function Skills() {
   const { t } = useLanguage();
@@ -27,46 +23,18 @@ export default function Skills() {
           </h2>
         </RevealOnScroll>
         <div className="skills__grid">
-          <RevealOnScroll>
-            <div className="skills__category">
-              <h3>{t.skills.frontend}</h3>
-              <ul className="skills__list">
-                {frontendItems.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <div className="skills__category">
-              <h3>{t.skills.devtools}</h3>
-              <ul className="skills__list">
-                {devtoolsItems.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <div className="skills__category">
-              <h3>{t.skills.testing}</h3>
-              <ul className="skills__list">
-                {testingItems.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <div className="skills__category">
-              <h3>{t.skills.ai}</h3>
-              <ul className="skills__list">
-                {aiItems.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          </RevealOnScroll>
+          {categories.map(({ key, items }) => (
+            <RevealOnScroll key={key}>
+              <div className="skills__category">
+                <h3>{t.skills[key]}</h3>
+                <ul className="skills__list">
+                  {items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </RevealOnScroll>
+          ))}
           <RevealOnScroll>
             <div className="skills__category">
               <h3>{t.skills.languages}</h3>

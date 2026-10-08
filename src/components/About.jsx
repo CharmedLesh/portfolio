@@ -34,12 +34,12 @@ export default function About() {
                 <span className="about__detail-label">{t.about.yearsLabel}</span>
               </div>
               <div className="about__detail">
-                <span className="about__detail-number">{t.about.sectorsNumber}</span>
-                <span className="about__detail-label">{t.about.sectorsLabel}</span>
+                <span className="about__detail-number">{t.about.visitsNumber}</span>
+                <span className="about__detail-label">{t.about.visitsLabel}</span>
               </div>
               <div className="about__detail">
-                <span className="about__detail-number">{t.about.projectsNumber}</span>
-                <span className="about__detail-label">{t.about.projectsLabel}</span>
+                <span className="about__detail-number">{t.about.promotionsNumber}</span>
+                <span className="about__detail-label">{t.about.promotionsLabel}</span>
               </div>
             </div>
           </div>
