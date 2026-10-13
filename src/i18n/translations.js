@@ -1,9 +1,9 @@
 export const translations = {
   en: {
     meta: {
-      title: 'Viacheslav Matvieiev \u2011 Frontend Engineer',
+      title: 'Viacheslav Matvieiev \u2011 React/Next.js & Automation Engineer',
       description:
-        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js for products with millions of users.',
+        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js for products with millions of users. Also builds production automation workflows with n8n.',
     },
     nav: {
       about: 'About',
@@ -17,9 +17,9 @@ export const translations = {
     hero: {
       greeting: 'Hi, my name is',
       name: 'Viacheslav Matvieiev',
-      title: 'Frontend Engineer',
+      title: 'React/Next.js & Automation Engineer',
       summary:
-        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js. Shipped features for products with millions of users, including Manchester City F.C. (5M+ monthly visits) and a digital keys marketplace (3M+ monthly visits). Experienced in leading frontend development, from architecture decisions to deployment.',
+        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js. Shipped features for products with millions of users, including Manchester City F.C. (5M+ monthly visits) and a digital keys marketplace (3M+ monthly visits). Experienced in leading frontend development, from architecture decisions to deployment. Also builds production automation workflows with n8n.',
       getInTouch: 'Get in Touch',
       viewExperience: 'View Experience',
       downloadCv: 'Download CV',
@@ -29,7 +29,7 @@ export const translations = {
       sectionNumber: '01.',
       title: 'About Me',
       text1:
-        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js across media, e\u2011commerce, fintech, SaaS, and IoT. I`ve shipped features for products with millions of users, including Manchester City F.C. (5M+ monthly visits) and a digital keys marketplace (3M+ monthly visits).',
+        'Frontend Engineer with 3 years of experience building web applications with TypeScript, React, and Next.js across media, e\u2011commerce, fintech, SaaS, and IoT. I`ve shipped features for products with millions of users, including Manchester City F.C. (5M+ monthly visits) and a digital keys marketplace (3M+ monthly visits). I also build production automation workflows with n8n.',
       text3: 'Based in Tbilisi, Georgia (UTC+4). I work best in environments where frontend quality is taken seriously \u2011 whether that means a well\u2011maintained design system, meaningful test coverage, or real attention to application performance.',
       text2Before: 'I`m comfortable owning features end\u2011to\u2011end: from architecture decisions and API integration to testing infrastructure, accessibility, and deployment. I`ve shipped in ',
       text2Middle: ' and ',
@@ -104,7 +104,7 @@ export const translations = {
       markup: 'Markup & Styling',
       state: 'State & Data',
       tooling: 'Tests & Tooling',
-      ai: 'Artificial Intelligence',
+      ai: 'Automation & AI',
       languages: 'Languages',
       langItems: [
         { name: 'English', level: 'Professional (C1)' },
@@ -144,6 +144,34 @@ export const translations = {
           credentialUrl: 'https://verify.skilljar.com/c/7ruv9uar8kgx',
           pdf: '/certificate-introduction-to-agent-skills.pdf',
         },
+        {
+          name: 'n8n Quickstart',
+          issuer: 'n8n',
+          date: 'Oct 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/46402252305145438ed018e4f2133f9b',
+          pdf: '/certificate-n8n-quickstart.pdf',
+        },
+        {
+          name: 'Essentials: Your First Workflows',
+          issuer: 'n8n',
+          date: 'Oct 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/fd92657a5d3f4d3f808e9972d691393a',
+          pdf: '/certificate-n8n-essentials.pdf',
+        },
+        {
+          name: 'Integrations: APIs & Connected Workflows',
+          issuer: 'n8n',
+          date: 'Oct 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/1d4701af40cb4bd3878ad9c5bb283de9',
+          pdf: '/certificate-n8n-integrations.pdf',
+        },
+        {
+          name: 'In Practice: AI, Testing & Best Practices',
+          issuer: 'n8n',
+          date: 'Oct 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/202b977cc1c9430683cf6fab4c668b2a',
+          pdf: '/certificate-n8n-in-practice.pdf',
+        },
       ],
     },
     contact: {
@@ -178,9 +206,9 @@ export const translations = {
 
   uk: {
     meta: {
-      title: "В'ячеслав Матвєєв ‑ Фронтенд‑інженер",
+      title: "В'ячеслав Матвєєв ‑ Інженер React/Next.js та автоматизації",
       description:
-        "Фронтенд‑інженер із 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js для продуктів з мільйонами користувачів.",
+        "Фронтенд‑інженер з 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js для продуктів з мільйонами користувачів. Також створюю продакшн‑автоматизації на n8n.",
     },
     nav: {
       about: 'Про мене',
@@ -194,9 +222,9 @@ export const translations = {
     hero: {
       greeting: 'Привіт, мене звати',
       name: "Матвєєв В'ячеслав",
-      title: "Фронтенд‑інженер",
+      title: 'Інженер React/Next.js та автоматизації',
       summary:
-        "Фронтенд‑інженер із 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js. Реалізовував функціонал для продуктів з мільйонами користувачів, зокрема Manchester City F.C. (5M+ відвідувань на місяць) та маркетплейсу цифрових ключів (3M+ відвідувань на місяць). Маю досвід керівництва розробки фронтенду: від прийняття архітектурних рішень до розгортання.",
+        "Фронтенд‑інженер з 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js. Реалізовував функціонал для продуктів з мільйонами користувачів, зокрема для Manchester City F.C. (5M+ відвідувань на місяць) та маркетплейсу цифрових ключів (3M+ відвідувань на місяць). Маю досвід керування розробкою фронтенду: від прийняття архітектурних рішень до розгортання. Також створюю продакшн‑автоматизації на n8n.",
       getInTouch: "Зв'язатися",
       viewExperience: 'Переглянути досвід',
       downloadCv: 'Завантажити CV',
@@ -206,9 +234,9 @@ export const translations = {
       sectionNumber: '01.',
       title: 'Про мене',
       text1:
-        "Фронтенд‑інженер із 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js у сферах медіа, електронної комерції, фінтеху, SaaS та IoT. Реалізовував функціонал для продуктів з мільйонами користувачів, зокрема Manchester City F.C. (5M+ відвідувань на місяць) та маркетплейсу цифрових ключів (3M+ відвідувань на місяць).",
-      text3: 'Перебуваю в Тбілісі, Грузія (UTC+4). Показую найкращі результати в середовищах, де якість фронтенду сприймається серйозно ‑ чи то добре підтримувана система дизайну, змістовне тестове покриття, чи справжня увага до продуктивності продукту.',
-      text2Before: 'Для мене не проблема вести розробку від початку до кінця: від архітектурних рішень та інтеграції API до тестування інфраструктури, доступності та розгортання. Я впроваджував ',
+        "Фронтенд‑інженер з 3 роками досвіду створення веб‑застосунків на TypeScript, React та Next.js у сферах медіа, електронної комерції, фінтеху, SaaS та IoT. Реалізовував функціонал для продуктів з мільйонами користувачів, зокрема для Manchester City F.C. (5M+ відвідувань на місяць) та маркетплейсу цифрових ключів (3M+ відвідувань на місяць). Також створюю продакшн‑автоматизації на n8n.",
+      text3: 'Перебуваю в Тбілісі, Грузія (UTC+4). Показую найкращі результати в середовищах, де якість фронтенду сприймається серйозно ‑ чи то добре підтримувана система дизайну, змістовне тестове покриття, чи то справжня увага до продуктивності продукту.',
+      text2Before: 'Для мене не проблема вести розробку від початку до кінця: від архітектурних рішень та інтеграції API до тестування та розгортання. Я впроваджував ',
       text2Middle: ' та ',
       text2After:
         " як у новітніх проектах, так і в глибоко застарілих кодових базах, включаючи jQuery, PHP та змішані середовища.",
@@ -217,7 +245,7 @@ export const translations = {
       visitsNumber: '8M+',
       visitsLabel: 'Відвідувань на Місяць у Продуктах',
       promotionsNumber: '2×',
-      promotionsLabel: 'Підвищення до Лід Фронтенду',
+      promotionsLabel: 'Керував Розробкою Фронтенду',
     },
     experience: {
       sectionNumber: '02.',
@@ -281,7 +309,7 @@ export const translations = {
       markup: 'Розмітка та стилі',
       state: 'Стан та дані',
       tooling: 'Тести та інструменти',
-      ai: 'Штучний Інтелект',
+      ai: 'Автоматизація та ШІ',
       languages: 'Мови',
       langItems: [
         { name: 'Англійська', level: 'Професійна (C1)' },
@@ -320,6 +348,34 @@ export const translations = {
           credentialId: '7ruv9uar8kgx',
           credentialUrl: 'https://verify.skilljar.com/c/7ruv9uar8kgx',
           pdf: '/certificate-introduction-to-agent-skills.pdf',
+        },
+        {
+          name: 'n8n Quickstart',
+          issuer: 'n8n',
+          date: 'Жовтень 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/46402252305145438ed018e4f2133f9b',
+          pdf: '/certificate-n8n-quickstart.pdf',
+        },
+        {
+          name: 'Essentials: Your First Workflows',
+          issuer: 'n8n',
+          date: 'Жовтень 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/fd92657a5d3f4d3f808e9972d691393a',
+          pdf: '/certificate-n8n-essentials.pdf',
+        },
+        {
+          name: 'Integrations: APIs & Connected Workflows',
+          issuer: 'n8n',
+          date: 'Жовтень 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/1d4701af40cb4bd3878ad9c5bb283de9',
+          pdf: '/certificate-n8n-integrations.pdf',
+        },
+        {
+          name: 'In Practice: AI, Testing & Best Practices',
+          issuer: 'n8n',
+          date: 'Жовтень 2026',
+          credentialUrl: 'https://learn.n8n.io/certificates/202b977cc1c9430683cf6fab4c668b2a',
+          pdf: '/certificate-n8n-in-practice.pdf',
         },
       ],
     },

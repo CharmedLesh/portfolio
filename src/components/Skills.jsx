@@ -8,7 +8,7 @@ const categories = [
   { key: 'markup', items: ['HTML5', 'BEM', 'CSS3', 'Sass', 'Bootstrap', 'Tailwind CSS'] },
   { key: 'state', items: ['Redux', 'MobX', 'Zustand', 'Zod', 'REST API', 'JWT', 'WebSocket', 'i18next'] },
   { key: 'tooling', items: ['Jest', 'React Testing Library', 'Storybook', 'Nx', 'Git', 'Jira', 'Figma', 'Docker'] },
-  { key: 'ai', items: ['Claude Code', 'Codex', 'Cursor'] },
+  { key: 'ai', items: ['n8n', 'Claude Code', 'Codex', 'Cursor', 'AI agents', 'Prompt Engineering'] },
 ];
 
 export default function Skills() {

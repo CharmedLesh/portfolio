@@ -35,7 +35,7 @@ export default function Certificates() {
         </RevealOnScroll>
         <div className="certificates__grid">
           {c.items.map((cert) => (
-            <RevealOnScroll key={cert.credentialId}>
+            <RevealOnScroll key={cert.pdf}>
               <article className="cert-card">
                 <button
                   type="button"
@@ -73,22 +73,26 @@ export default function Certificates() {
                       <dt>{c.issuedLabel}</dt>
                       <dd>{cert.date}</dd>
                     </div>
-                    <div className="cert-card__meta-row">
-                      <dt>{c.credentialIdLabel}</dt>
-                      <dd className="cert-card__credential">{cert.credentialId}</dd>
-                    </div>
+                    {cert.credentialId && (
+                      <div className="cert-card__meta-row">
+                        <dt>{c.credentialIdLabel}</dt>
+                        <dd className="cert-card__credential">{cert.credentialId}</dd>
+                      </div>
+                    )}
                   </dl>
-                  <a
-                    href={cert.credentialUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn--outline cert-card__link"
-                  >
-                    {c.showCredential}
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5" />
-                    </svg>
-                  </a>
+                  {cert.credentialUrl && (
+                    <a
+                      href={cert.credentialUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn--outline cert-card__link"
+                    >
+                      {c.showCredential}
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M15 3h6v6M10 14 21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5" />
+                      </svg>
+                    </a>
+                  )}
                 </div>
               </article>
             </RevealOnScroll>
